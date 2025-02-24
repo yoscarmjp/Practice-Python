@@ -6,11 +6,13 @@ numeros.sort()
 for numero in numeros:
     if(numero == 10):
         print("Ok este es el numero 10")
-        break
+else:
+    print("El bucle ha terminado.")
 
-
-for numero in range(10):
-    print("...")
 
 
 # print(lista)
+
+
+user = input("\nIngresa tu nombre de usuario: ")
+password = input("\nIngresa tu contraseña: ")
